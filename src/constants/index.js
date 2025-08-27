@@ -24,7 +24,8 @@ import {
   tripguide,
   yelp,
   chatApp,
-  textbinds
+  textbinds,
+  silicon_logo
 } from "../assets";
 
 export const navLinks = [
@@ -114,13 +115,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Upcoming SDE Intern 2025",
-    company_name: "Texas Instruments, Banglore",
+    title: "Fullstack Development Intern",
+    company_name: "Silicon Academy",
+    icon: silicon_logo,
+    iconBg: "black",
+    date: "May 2025 - July 2025",
+    points: [
+      "Worked on development of an Educational web-application which oﬀers video courses to users.",
+      "Developed front-end of more than 15 web-pages of the website.",
+      "Worked on back-end integration of the website and various CRUD operations involving the database.",
+      "Implemented Authentication on the website using a third-party app - Clerk."
+    ],
+  },
+  {
+    title: "Software Development Engineer Intern",
+    company_name: "Texas Instruments, India",
     icon: starbucks,
     iconBg: "red",
     date: "May 2025 - July 2025",
     points: [
-      "Experience Awaiting Soon..."
+      "Created an Approval Service Application for the enterprise used across multiple teams.",
+      "The application was modular and had feature of defining interdependency across various levels of approval",
+      "This application was expected to be used by 20+ teams which reduces their time and eﬀorts for the same by 90%.",
+      "Had designed the entire Database Architecture and optimized it to reduce redundancy apart from the front-end and back-end development"
     ],
   },
   {

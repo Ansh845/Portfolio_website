@@ -30,8 +30,10 @@ import chatApp from "./chatApp.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import silicon_logo from "./company/silicon_logo.jpeg"
 
 export {
+  silicon_logo,
   chatApp,
   logo,
   backend,
